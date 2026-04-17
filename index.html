@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Macmacaan Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff5f5;
+    }
+    header {
+      background: #ff4d6d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      width: 80px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    nav {
+      background: #ff758f;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      height: 150px;
+      object-fit: cover;
+    }
+    footer {
+      background: #ff4d6d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Logo">
+  <h1>🍰 Macmacaan Shop</h1>
+  <p>Macmacaan cusub oo macaan leh!</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <h2 id="products">Our Products</h2>
+  <div class="products">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1599785209707-28c9b3f3a1b3" alt="Cake">
+      <h3>Chocolate Cake</h3>
+      <p>$10</p>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1542826438-1d6d41f5f0b0" alt="Ice Cream">
+      <h3>Ice Cream</h3>
+      <p>$7</p>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52" alt="Biscuits">
+      <h3>Biscuits</h3>
+      <p>$5</p>
+    </div>
+
+  </div>
+
+  <h2 id="contact">Contact Us</h2>
+  <p>Phone: +252 61 0000000</p>
+  <p>Email: macmacaan@gmail.com</p>
+</div>
+
+<footer>
+  <p>© 2026 Macmacaan Shop</p>
+</footer>
+
+</body>
+</html>
